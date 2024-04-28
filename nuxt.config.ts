@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
+    baseURL: "/nuxt-github-pages/",
     buildAssetsDir: "assets",
   },
   modules: ["@nuxtjs/tailwindcss"],
